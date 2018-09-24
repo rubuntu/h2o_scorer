@@ -58,10 +58,10 @@ if (! file.exists("tmp")) {
 h2o.download_mojo(model, path = "tmp")
 
 #Add "id" field to valid dataset and save as eval 
-eval=as.data.frame(valid)
-eval$id=rownames(eval)
-eval=eval[,c("id",myX,"bad_loan","int_rate")]
-write.csv(eval,"tmp/eval.csv" , row.names = F)
+test=as.data.frame(valid)
+test$id=rownames(eval)
+test=test[,c("id",myX,"bad_loan","int_rate")]
+write.csv(test,"data/test.csv" , row.names = F)
 
 ```
 
