@@ -150,14 +150,13 @@ Using endpoints:
 ```
 
 
-### CAVEAT: If your license for Comercial H2O Driverless AI Mojo Pipeline Scoring expired, you will get the error message: "The license expired on..."
+### CAVEAT: If your license for Comercial H2O Driverless AI Mojo Pipeline Scoring expired, you will get the error message: "The license expired on..." or "Invalid license"
 
 ```
 { scripts } master » head data/test-bad-loan-pipeline-scored.csv
 "id","score","error_msg"
 "undefined","undefined","The license expired on Fri Sep 21 00:00:00 PYT 2018"
-"undefined","undefined","The license expired on Fri Sep 21 00:00:00 PYT 2018"
-"undefined","undefined","The license expired on Fri Sep 21 00:00:00 PYT 2018"
+
 ```
 
 
