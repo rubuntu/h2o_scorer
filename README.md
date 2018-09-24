@@ -1,5 +1,5 @@
-# H2O_MOJO_Pipeline_Scorer
-H2O's Mojo Model & Pipeline REST web service for real-time scoring
+# H2O.ai's Driverless AI Mojo Pipeline Scorer
+H2O.ai's open source Mojo Model & Driverless AI Mojo Pipeline REST web service for real-time scoring
 
 You could publish your Driverless AI Mojo Pipeline or an H2O Open Source Mojo Model as a REST API
   
