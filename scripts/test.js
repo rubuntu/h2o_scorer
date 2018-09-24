@@ -67,7 +67,7 @@ var out_file = "data/test-bad-loan-model-scored.csv";
 testService(uri, out_file);
 
 uri = "http://localhost:8080/h2o_scorer/model/InterestRateModel";
-out_file = "data/test-interest-tate-model-scored.csv";
+out_file = "data/test-interest-rate-model-scored.csv";
 
 testService(uri, out_file);
 
@@ -83,4 +83,3 @@ testService(uri, out_file);
 // uri = "http://localhost:8080/h2o_scorer/pipeline/InterestRatePipeline";
 // out_file = "data/test-interest-tate-pipeline-scored.csv";
 // testService(uri, out_file);
-
